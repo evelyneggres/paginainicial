@@ -1,0 +1,41 @@
+body{
+    background-image: url(esportes.jfif);
+    background-size: cover;
+}
+
+.header{
+    background-color: rgb(240, 255, 255);
+    display: block;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 140px;
+    font-size: 25px;
+}
+
+a:link{
+    color: black;
+}
+
+.quadro{
+    background-color: rgba(0, 0, 0, 0.075);
+    text-decoration: none;
+    border: 0;
+}
+
+.quadro:hover{
+    background-color: rgba(231, 223, 223, 0.479);
+    transition: 0.5s;
+}
+
+
+
+a:visited{
+    color: black;
+}
